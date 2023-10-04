@@ -262,9 +262,7 @@ animation: animate-wave 500ms infinite ease-in-out;
     margin-bottom: 135px;
     
 }
-.project__wrapper.golyabal{
-    max-width: 300px
-}
+
 .project:last-child {
     margin-bottom: 40px;
 }
@@ -344,7 +342,7 @@ animation: animate-wave 500ms infinite ease-in-out;
 }
 .project__description{
     max-height: 50%;
-    max-width: 500px;
+    max-width: 600px;
 }
 /*FOOTER*/
 
