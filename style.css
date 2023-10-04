@@ -93,7 +93,7 @@ nav {
 }
 .nav__personal-logo {
     width: 100%;
-    max-width: 200px;
+    max-width: 100px;
 }
 .nav__link--list {
     display: flex;
@@ -262,6 +262,9 @@ animation: animate-wave 500ms infinite ease-in-out;
     margin-bottom: 135px;
     
 }
+.project__wrapper.golyabal{
+    max-width: 300px
+}
 .project:last-child {
     margin-bottom: 40px;
 }
@@ -279,7 +282,7 @@ animation: animate-wave 500ms infinite ease-in-out;
     display: flex;
     margin: 0 auto;
     width: 100%;
-    max-width: 500px;
+    max-width: 800px;
     box-shadow: 0 20px 80px rgba(0, 0, 0, 0.45);
     border-radius: 33px;
     overflow: hidden;
@@ -339,8 +342,9 @@ animation: animate-wave 500ms infinite ease-in-out;
     text-align: left;
     color: white;
 }
-.project__description.project__description--horizontal {
-    max-height: 60%;
+.project__description{
+    max-height: 50%;
+    max-width: 500px;
 }
 /*FOOTER*/
 
@@ -413,9 +417,7 @@ opacity: 1;
  }
 }
 @media (max-width: 480px) {
-    .nav__link:not(:last-child) {
-        display:none;
-    }
+ 
     .project__description {
         max-width: 200px;
         max-height: 50%;
@@ -434,8 +436,11 @@ opacity: 1;
     font-size: 12px;
  }
 }
-@media (max-width: 330px) {
+@media (max-width: 389px) {
     .language {
         width: calc(100% / 2)
      }   
+     .nav__link:not(:last-child) {
+        display:none;
+    }
 }
